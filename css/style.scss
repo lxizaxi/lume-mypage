@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
 
 $font-stack-body: 'Roboto', sans-serif;
-$font-stack-heading: 'Pacifico', cursive;
+$font-stack-heading: cursive;
 $primary-color: #007afd;
 $secondary-color: #17c900;
 $tertiary-color: #3498db;
@@ -24,9 +24,11 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, $primary-color, $secondary-color);
+  background-image: url("../images/kisokoma.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
   color: white;
-  padding: 20px;
+  padding: 40px;
 
   h1 {
     font-family: $font-stack-heading;

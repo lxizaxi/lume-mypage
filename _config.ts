@@ -10,6 +10,7 @@ import transformImages from "lume/plugins/transform_images.ts";
 import jsx from "lume/plugins/jsx.ts";
 import mdx from "lume/plugins/mdx.ts";
 
+import favicon from "lume/plugins/favicon.ts";
 
 const site = lume();
 
@@ -23,5 +24,7 @@ site.use(transformImages());
 
 site.use(jsx());
 site.use(mdx());
+
+site.use(favicon({input: "images/paramountplus.svg"}));
 
 export default site;

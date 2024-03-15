@@ -14,7 +14,11 @@ interface BlogPageData extends Lume.Data {
     </head>
     <body>
     <header>
-      <h1><a href="/">lxizaxi's home</a></h1>
+      <h1>
+        <a href="/" style={{ "text-decoration": "none" }}>
+          <font color="snow">lxizaxi's home</font>
+        </a>
+      </h1>
     </header>
   
     <main>
